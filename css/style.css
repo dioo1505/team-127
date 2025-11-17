@@ -1,0 +1,89 @@
+/* Nunito */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.seller__dishes {
+  /* max-width: 1299px; */
+  width: 100%;
+  height: 100vh;
+  padding: 20px 0;
+}
+.seller__dishes--box {
+  width: 852px;
+  margin-left: 350px;
+}
+.seller__dishes--title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 120%;
+  color: #1f1f1f;
+  text-align: center;
+}
+.seller__dishes--subtitle {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #5c5c5c;
+  text-align: center;
+}
+.seller__foods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 72px;
+}
+.seller__foods--cards {
+  margin-top: 68px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.foods__card {
+  width: 417px;
+  height: 486px;
+  background-color: bisque;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.card__text--food {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-top: 30px;
+  margin-bottom: 26px;
+}
+.card__text--title {
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 31px;
+}
+.card__text--btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 38px;
+  background-color: #f03328;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+.price {
+  display: flex;
+  gap: 140px;
+}
+.card__text--price {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #000000;
+}
